@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--实体类所在的包名-->
+    <typeAliases>
+        <package name="com.scwnb.crm.settings.domain"/>
+        <package name="com.scwnb.crm.workbench.domain"/>
+    </typeAliases>
+
+    <!--映射文件的位置-->
+    <mappers>
+        <package name="com.scwnb.crm.settings.dao"/>
+        <package name="com.scwnb.crm.workbench.dao"/>
+    </mappers>
+
+</configuration>
